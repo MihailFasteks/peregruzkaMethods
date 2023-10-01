@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBD118F52AC9F40500957823 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD118F42AC9F40500957823 /* main.cpp */; };
+		DBD118FD2AC9F47100957823 /* Перегрузка.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD118FB2AC9F47100957823 /* Перегрузка.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DBD118F12AC9F40500957823 /* Перегрузка методов */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Перегрузка методов"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD118F42AC9F40500957823 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DBD118FB2AC9F47100957823 /* Перегрузка.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Перегрузка.cpp"; sourceTree = "<group>"; };
+		DBD118FC2AC9F47100957823 /* Перегрузка.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Перегрузка.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DBD118F42AC9F40500957823 /* main.cpp */,
+				DBD118FB2AC9F47100957823 /* Перегрузка.cpp */,
+				DBD118FC2AC9F47100957823 /* Перегрузка.hpp */,
 			);
 			path = "Перегрузка методов";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD118F52AC9F40500957823 /* main.cpp in Sources */,
+				DBD118FD2AC9F47100957823 /* Перегрузка.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
